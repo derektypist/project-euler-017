@@ -28,5 +28,27 @@ The function `numberLetterCounts(limit)` returns a number, where `limit` is a nu
 
 Allows the user to enter a number as well as getting the number of letters used to write the numbers from 1 to that number.  Performs checks on valid user input.  If the input is invalid, an error message is displayed.
 
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0-Beta1 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-017) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
 
 
