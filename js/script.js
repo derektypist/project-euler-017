@@ -21,3 +21,10 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+// Function to Triple in Words 
+function tripleInWords([hundreds,tens,ones]) {
+    return [hundreds===0 ? '' : UNITS[hundreds] + 'hundred', 10*tens + ones < 20 ? '' : TENS[tens], 10*tens+ones<20 ? UNITS[10*tens+ones] : UNITS[ones]];
+}
+
+// Function to Convert Number in Words
