@@ -33,7 +33,7 @@ As a user, I expect the function `numberLetterCounts(1000)` to return 21124.
 
 **Information Architecture**
 
-The function `numberLetterCounts(limit)` returns a number, where `limit` is a number between 1 and 1000000.
+The function `numberLetterCounts(limit)` returns a number, where `limit` is a number between 1 and 2000000.
 
 ## Features
 
