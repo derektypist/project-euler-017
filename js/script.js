@@ -40,3 +40,18 @@ function numInWords(num) {
 
     return numToArray.map((triple) => tripleInWords(triple).join('')).map((triple,index) => triple !== '' ? triple + SHORTSCALE[index] : '').join('') + ((num%100 > 0 && num>=100) ? 'and' : '');
 }
+
+/*
+    Function to return the number of letters used to write all
+    letters from 1 to limit
+    numberLetterCounts(5) returns 19
+    numberLetterCounts(150) returns 1903
+    numberLetterCounts(1000) returns 21124
+*/
+function numberLetterCounts(limit) {
+    let numLetters = 0;
+    for (let i=1;i<=limit;i++) {
+        numLetters += numInWords(i).length;
+    }
+    return numLetters;
+}
