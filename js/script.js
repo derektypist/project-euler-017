@@ -28,3 +28,15 @@ function tripleInWords([hundreds,tens,ones]) {
 }
 
 // Function to Convert Number in Words
+function numInWords(num) {
+    if (Math.log10(num) > 32) return NaN;
+    let numToArray = [];
+    let numCopy = num;
+    while (numCopy > 0) {
+        const triple = numCopy % 1000;
+        numCopy = Math.floor(numCopy/1000);
+        numToArray.push([Math.floor(triple/100),Math.floor((triple%100)/10), Math.floor(triple%10)]);
+    }
+
+    return numToArray.map((triple) => tripleInWords(triple).join('')).map((triple,index) => triple !== '' ? triple + SHORTSCALE[index] : '').join('') + ((num%100 > 0 && num>=100) ? 'and' : '');
+}
