@@ -15,7 +15,7 @@ function getNumberInfo() {
         txt += `Invalid Input.  Please enter a whole number between 1 and 2000000.`;
     } else {
         txt += `You have entered the number ${num}.<p>`;
-        txt += `${numberLetterCounts(num)} letters have been used for writing out these numbers in words.`
+        txt += `${numberLetterCounts(num)} letters have been used for writing out all the numbers from 1 to ${num} in words.`
     }
 
     // Display Information in the Browser
