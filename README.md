@@ -12,14 +12,14 @@ Information at [Project Euler 017](https://projecteuler.net/problem=17)
 
 **Getting Started**
 
-Enter a whole number between 1 and 1000000 in the input field and click on the Submit Button.  You will see the number you have entered as well as the number of letters used to write the numbers from 1 to that number, unless you have made an invalid input.  For example, if you entered 5, you would expect to get 19 letters used to write the numbers from 1 to 5.  Click on the Reset Button to clear this information or to start again.
+Enter a whole number between 1 and 2000000 in the input field and click on the Submit Button.  You will see the number you have entered as well as the number of letters used to write the numbers from 1 to that number, unless you have made an invalid input.  For example, if you entered 5, you would expect to get 19 letters used to write the numbers from 1 to 5.  Click on the Reset Button to clear this information or to start again.
 
 **User Stories**
 
 As a user, I expect to get an error message if I do any of:
 
 - Not enter anything in the input field
-- Entering a number less than 1 or greater than 1000000
+- Entering a number less than 1 or greater than 2000000
 - Entering text other than a number
 - Entering a number, but it is not an integer
 
